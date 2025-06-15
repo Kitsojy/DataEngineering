@@ -9,7 +9,7 @@ def log_progress(message):
     timestamp_format = '%Y-%h-%d-%H:%M:%S' 
     now = datetime.now()  
     timestamp = now.strftime(timestamp_format) 
-    with open("./code_log.txt","a") as f: 
+    with open("./project-bank-etl/code_log.txt","a") as f: 
         f.write(timestamp + ' : ' + message + '\n')    
 
 
@@ -65,9 +65,9 @@ def run_query(query_statement, sql_connection):
 url = 'https://web.archive.org/web/20230908091635/https://en.wikipedia.org/wiki/List_of_largest_banks'
 
 table_attribs = ['Name', 'MC_USD_Billion']
-csv_path = './Largest_banks_data.csv'
-exchange_rate = './exchange_rate.csv'
-db_name = 'Banks.db'
+csv_path = './project-bank-etl/Largest_banks_data.csv'
+exchange_rate = './project-bank-etl/exchange_rate.csv'
+db_name = './project-bank-etl/Banks.db'
 table_name = 'Largest_banks'
 
 log_progress('Preliminaries complete. Initiating ETL process')
