@@ -29,7 +29,15 @@ After transformation, the dataset includes:
 
 ## 📎 Documentation
 
-> 📄 `ETL_Pipeline_Workflow.pdf` — contains end-to-end pipeline architecture, steps, and logic explanation.
+📄 **Capstone_Project.pdf** — This PDF is the final project presentation submitted for the **IBM Data Engineering Professional Certificate** on Coursera. It documents a complete, end-to-end data engineering workflow covering:
+
+- MySQL, MongoDB, and PostgreSQL integration
+- Data visualization using Looker Studio
+- ETL development using Python and Apache Airflow
+- Predictive modeling using PySpark
+
+🧩 The Python script in this folder (bank market cap ETL) represents the **"ETL pipeline" module** of that broader capstone project.
+It is implemented independently and brings to life one core part of the architecture described in the PDF.
 
 ---
 
